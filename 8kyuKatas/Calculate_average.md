@@ -36,7 +36,7 @@ number(["a", "b", "c"]) # => ["1: a", "2: b", "3: c"]
 
 ```python
 def find_average(array):
-    return sum(array) // len(array)
+    return sum(array) / len(array) if array else 0
 ```
 
 ---
